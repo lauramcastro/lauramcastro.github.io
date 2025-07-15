@@ -6,8 +6,6 @@ layout: home
 list_title: Novidades
 ---
 
-# {{ site.title }}
-
 ![Foto de Laura M. Castro](assets/lauramcastro-informal.jpg){: style="float: right; border-radius: 30px; margin: 20px; box-shadow: 8px 8px 15px rgba(0, 0, 0, 0.5);"}
 
 Ola! Chegaches ao meu sitio web.
