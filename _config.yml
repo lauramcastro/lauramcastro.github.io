@@ -13,39 +13,31 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-
-title: Laura M. Castro
-author: Laura M. Castro
+title: "Laura M. Castro"
+author: "Laura M. Castro"
 email: lcastro@udc.gal
 description: >- # this means to ignore newlines until "baseurl:"
   Professor at Universidade da Coruña (UDC), 
   director of CEXEF (Gender and Feminist Studies Centre).
   member of the BEAM and the Erlang Ecosystem Foundation.
-
+baseurl: "" # the subpath of your site, e.g. /blog
+url: https://lauramcastro.github.io # the base hostname & protocol for your site, e.g. http://example.com
 ## social links
 #github_username:  lauramcastro
 #rss: RSS
 #linkedin_username: lauracastro
-
-baseurl: "" # the subpath of your site, e.g. /blog
-url: https://lauramcastro.github.io # the base hostname & protocol for your site, e.g. http://example.com
-
 show_excerpts: true
-
 # Build settings
 theme: minima
 plugins:
   - jekyll-feed
-
 minima:
   skin: auto
-
 # Archives
 collections:
   archives:
     output: true
     permalink: /archives/:path/
-
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
