@@ -1,0 +1,26 @@
+---
+layout: default
+---
+
+<div class="home">
+  {%- if page.title -%}
+    <h1 class="page-heading">{{ page.title }}</h1>
+  {%- endif -%}
+
+  {{ content }}
+
+  {%- if site.posts.size > 0 -%}
+    <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2>
+    <p class="rss-subscribe"><i>(non perdas ningunha: suscríbete por <a href="{{ "/feed.xml" | relative_url }}">RSS</a>)</i></p>
+    <ul class="post-list">
+      {%- for post in site.posts -%}
+      <li>
+        {% include post_preview.html post=post %}
+      </li>
+      {%- endfor -%}
+    </ul>
+    <p class="rss-subscribe"><i>Tamén podes consultar o <a href="{{ "/archives/index" }}">histórico completo</a></i>.</p>
+
+  {%- endif -%}
+
+</div>
