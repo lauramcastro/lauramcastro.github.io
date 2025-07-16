@@ -12,4 +12,6 @@ The following tweaks have been applied:
 
 The following tweaks are work in progress, before populating with content:
 
-- Add multilanguage support.
+- Partial multilanguage support. Current status is that only posts offer the possibility of changing languages
+  (to those available). Posts are listed on the homepage in the default page language (if available), or in the
+  first alternative language available otherwise.
