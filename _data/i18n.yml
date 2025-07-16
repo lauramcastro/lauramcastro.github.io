@@ -1,0 +1,12 @@
+gl:
+  label: galego
+  icon: "<img src=\"/assets/flag_esga.png\" height=\"16px;\"/>"
+  read_it_in: "Ler isto en"
+en:
+  label: English
+  icon: 🇬🇧
+  read_it_in: "Read this in"
+pt:
+  label: português
+  icon: 🇵🇹
+  read_it_in: "Leia isto em"

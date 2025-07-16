@@ -1,0 +1,21 @@
+---
+layout: post
+title:  "Languages in place!"
+excerpt: "I wanted this new version of the website to be multi-language."
+date:   2025-07-16 16:04:00 +0200
+lang: en
+ref: i18n
+categories: post
+tags:
+  - updates
+  - website
+---
+The last functional requirement that I wanted for the rebuilt website was something missing in the previous version that had haunted me for a while: internationalization.
+
+My native language is Spanish, but being born to a Galician family, living in Galicia most of my life, and considering the decline in speakers that Galician has been suffering from decades, I decided to become a Galician speaker. I use it in my daily life, and of course also in my lectures. However, we all know English is academia's _lingua franca_, and as a result of that my previous professional website was only in English. I wanted to fix that.
+
+Of course Jekyll has plugins to ease the task of making a multilingual website, but given that this website is deployed on GitHub Pages, and the restrictions that because of that apply, I searched and searched for a plugin-free solution. Of the many websites and blog posts that I found, [this one][jpallares] was the one that I ended up getting inspired by.
+
+Now news posts like this one will present in their header the option to read in alternative languages, if such translation is present. Enjoy!
+
+[jpallares]: https://juan.pallares.me/configura-jekyll-multi-idioma-sin-plugin/

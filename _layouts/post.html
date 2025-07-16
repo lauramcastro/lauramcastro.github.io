@@ -13,6 +13,14 @@ layout: default
       {%- if page.author -%}
         • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">{{ page.author }}</span></span>
       {%- endif -%}
+      {% assign versions=site.posts | where:"ref",page.ref | sort: 'lang' %}
+      {% if versions.size > 1 %}
+          {% for version in versions %}
+              {% if version.lang != page.lang %}
+                • <a href="{{ version.url }}" class="{{ version.lang }}">{{ site.data.i18n[version.lang].read_it_in }} <b>{{ site.data.i18n[version.lang].label }}</b> {{ site.data.i18n[version.lang].icon }} </a>
+              {% endif %}
+          {% endfor %}
+      {% endif %}
     </p>
   </header>
 
@@ -22,13 +30,13 @@ layout: default
 
   <!-- 
       {%- if page.tags -%}
-        <br/> {% for tag in page.tags %}
+        <br/> {%- for tag in page.tags -%}
           <a href="{{site.baseurl}}/archive.html#{{tag | slugize}}">
             <span itemprop="tag" itemscope itemtype="http://schema.org/Category">
               <span class="h-card" itemprop="name">#{{ tag }}</span>
             </span>
           </a>
-        {% endfor %}
+        {%- endfor -%}
       {%- endif -%}  -->
 
   <p class="rss-subscribe"><i>Podes consultar o <a href="{{ "/archives/index" }}">histórico completo</a> de novidades</i>.</p>

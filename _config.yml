@@ -30,6 +30,7 @@ url: https://lauramcastro.github.io # the base hostname & protocol for your site
 #linkedin_username: lauracastro
 
 show_excerpts: true
+lang: gl
 
 # Build settings
 theme: minima

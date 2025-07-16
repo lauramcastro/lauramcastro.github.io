@@ -1,0 +1,21 @@
+---
+layout: post
+title:  "Ben-vindas as línguas!"
+excerpt: "Eu queria um site multilingue."
+date:   2025-07-16 16:04:00 +0200
+lang: pt
+ref: i18n
+categories: post
+tags:
+  - updates
+  - website
+---
+O último requisito funcional que pretendia para o site reconstruído era algo que faltava na versão anterior e que me perseguia há algum tempo: a internacionalização.
+
+A minha língua nativa é o espanhol, mas tendo nascido numa família galega, vivendo na Galiza a maior parte da minha vida e considerando o declínio de falantes que o galego sofre há décadas, decidi tornar-me galegofalante. É a língua que emprego no meu dia a dia e também nas minhas aulas. No entanto, já sabemos que o inglês é a _língua franca_ da academia, e por disso o meu site profissional anterior estava apenas em inglês. Os tempos eram chegados de o corrigir.
+
+O Jekyll tem plugins para facilitar a tarefa de criar um site multilingue, mas tendo em conta que este site corre no GitHub Pages e as restrições que isto impõe, pesquisei por uma solução à margem de plugins. Dos muitos sites e posts que encontrei, [este][jpallares] foi o que me inspirou finalmente.
+
+Agora, mensagens como esta apresentam no cabeçalho a opção de se ler em línguas alternativas, caso exista tradução. Desfrute!
+
+[jpallares]: https://juan.pallares.me/configura-jekyll-multi-idioma-sin-plugin/

@@ -5,7 +5,7 @@ layout: default
 <a name="posts"></a>
 <div style="display: block; ">
   <h1>Arquivo do sitio</h1>
-  {%- assign posts = site.posts | where:"categories","post" -%}
+  {%- assign posts = site.posts | where:"categories","post" | where: "lang",site.lang -%}
   {%- assign groupedByYear = posts | group_by_exp:"post","post.date | date:'%Y' " -%}
   <!-- total posts: {{ posts.size }} -->
 
@@ -19,8 +19,8 @@ layout: default
         <span>{{ item.date | date:'%e de %b'}}</span>
         <span><a href="{{ item.url }}">{{ item.title }}</a></span>
       </div>
-    {% endfor %}
+    {%- endfor -%}
     </ul>
   </span>
-  {% endfor %}
+  {%- endfor -%}
 </div>

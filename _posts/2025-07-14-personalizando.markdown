@@ -1,7 +1,10 @@
 ---
 layout: post
 title:  "Personalización do modelo"
+excerpt: "En proceso de personalización do modelo."
 date:   2025-07-14 13:34:06 +0200
+lang: gl
+ref: personalizacion
 categories: post
 tags:
   - updates
@@ -23,4 +26,3 @@ Polo de agora, estas modificacións afectan a:
 
 [jekyll]: https://jekyllrb.com/docs/home
 [minima]: https://github.com/jekyll/minima
-
