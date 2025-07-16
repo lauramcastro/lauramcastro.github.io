@@ -7,17 +7,14 @@ layout: default
     <h2 class="post-title p-name" itemprop="name headline">{{ page.title | escape }}</h2>
     <p class="post-meta">
       <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
-        {%- assign date_format = "%-d de %b de %Y" -%}
+        {%- assign date_format = "%-d / %m / %Y" -%}
         <i>{{ page.date | date: date_format }}</i>
       </time>
-      {%- if page.author -%}
-        • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">{{ page.author }}</span></span>
-      {%- endif -%}
       {% assign versions=site.posts | where:"ref",page.ref | sort: 'lang' %}
       {% if versions.size > 1 %}
           {% for version in versions %}
               {% if version.lang != page.lang %}
-                • <a href="{{ version.url }}" class="{{ version.lang }}">{{ site.data.i18n[version.lang].read_it_in }} <b>{{ site.data.i18n[version.lang].label }}</b> {{ site.data.i18n[version.lang].icon }} </a>
+                • <i><a href="{{ version.url }}" class="{{ version.lang }}">{{ site.data.i18n[version.lang].read_it_in }} <b>{{ site.data.i18n[version.lang].label }}</b> {{ site.data.i18n[version.lang].icon }} </a></i>
               {% endif %}
           {% endfor %}
       {% endif %}
@@ -39,7 +36,7 @@ layout: default
         {%- endfor -%}
       {%- endif -%}  -->
 
-  <p class="rss-subscribe"><i>Podes consultar o <a href="{{ "/archives/index" }}">histórico completo</a> de novidades</i>.</p>
+  <p class="post-meta"><i>Podes consultar o <a href="{{ "/archives/index" }}">histórico completo</a> de novidades</i>.</p>
 
   {%- if site.disqus.shortname -%}
     {%- include disqus_comments.html -%}
