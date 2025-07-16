@@ -3,6 +3,7 @@ layout: post
 title:  "Nova versión desta web"
 excerpt: "Tiña vontade hai tempo de mudar o aspecto deste sitio."
 date:   2025-07-11 17:11:06 +0200
+permalink: /:title/
 lang: gl
 ref: novaweb
 categories: post 
