@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Publicacións
+lang: gl
 permalink: /publicacions/
 ---
 

@@ -3,24 +3,25 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: home
-list_title: Novidades
-lang: gl
+list_title: Updates
+lang: en
+permalink: /en/
 ---
 
 <div class="post-meta" style="text-align: right">
-  <i><a href="/en/"> {{ site.data.i18n["en"].read_it_in }} <b>{{ site.data.i18n["en"].label }}</b> {{ site.data.i18n["en"].icon }} </a></i>
+  <i><a href="/"> {{ site.data.i18n["gl"].read_it_in }} <b>{{ site.data.i18n["gl"].label }}</b> {{ site.data.i18n["gl"].icon }} </a></i>
 </div>
 
-![Foto de Laura M. Castro](/assets/lauramcastro-informal.jpg){: style="float: right; border-radius: 30px; margin: 20px; box-shadow: 8px 8px 15px rgba(0, 0, 0, 0.5);"}
+![Picture of Laura M. Castro](/assets/lauramcastro-informal.jpg){: style="float: right; border-radius: 30px; margin: 20px; box-shadow: 8px 8px 15px rgba(0, 0, 0, 0.5);"}
 
-Ola! Chegaches ao meu sitio web.
+Hello there! You've found my website.
 
-Son Laura Castro, enxeñeira informática, doutora en computación e profesora na [Universidade da Coruña (UDC)][udc].
+I'm Laura Castro, software engineer, PhD in computer science and professor at [Universidade da Coruña (UDC)][udc].
 
-Aquí poderás atopar as actividades de [divulgación](/divulgacion) que realizo, os [proxectos](/proxectos) nos que estou involucrada, as miñas [publicacións](/publicacions) científicas e tamén as [materias, cursos e traballos académicos](/docencia) que imparto, coordino ou titorizo.
+You will find here the [dissemination](/en/divulgacion) activities I do, the [projects](/en/proxectos) I am involved in, my research [publications](/en/publicacions) and also the [courses, subjects and academic projects](/en/docencia) I teach, manage or supervise.
 
-Se queres contactar comigo, o medio máis efectivo é o [correo electrónico](mailto:lcastro@udc.gal).
-Ah! E se che presta, eis algunhas redes sociais nas que tamén publico cousas de cando en vez.
+If you want to reach out to me, the most effective channel is [email](mailto:lcastro@udc.gal).
+And if you're into that, you can find me most active in the following social networks.
 
 <!-- Social Icons -->
 <div style="display: flex; justify-content: space-between; ">
@@ -33,7 +34,7 @@ Ah! E se che presta, eis algunhas redes sociais nas que tamén publico cousas de
   &nbsp;
 </div>
 
-Grazas pola túa visita!
+Thank you for your visit!
 
 <br/>
 
