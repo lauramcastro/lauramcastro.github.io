@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Proxectos
+lang: gl
 permalink: /proxectos/
 ---
 

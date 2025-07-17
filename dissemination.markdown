@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Divulgación
+lang: gl
 permalink: /divulgacion/
 ---
 

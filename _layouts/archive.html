@@ -5,21 +5,21 @@ layout: default
 <a name="posts"></a>
 <div style="display: block; ">
   <h1>Arquivo do sitio</h1>
-  {%- assign posts = site.posts | where:"categories","post" -%}
-  {%- assign grouped_by_year = posts | group_by_exp:"post","post.date | date:'%Y' " -%}
+  {%- assign posts = site.posts | where: "categories","post" -%}
+  {%- assign grouped_by_year = posts | group_by_exp: "post","post.date | date: '%Y' " -%}
 
   {%- for year_item in grouped_by_year -%}
   <span style="display: block; ">
     <h2>{{ year_item.name }}</h2>
 
     <ul class="post-list">
-    {%- assign items_by_ref = year_item.items | group_by:"ref" -%}
+    {%- assign items_by_ref = year_item.items | group_by: "ref" -%}
     {%- for group in items_by_ref -%}
       {%- assign item = group.items[0] -%}
       <div style="display: grid; grid-template-columns: 20% 80%;">
-        <span>{{ item.date | date:'%e / %m'}}</span>
+        <span>{{ item.date | date: "%e / %m" }}</span>
         <span>
-            {% assign versions=site.posts | where:"ref",item.ref %}
+            {% assign versions=site.posts | where: "ref",item.ref %}
             {% for version in versions %}
               {{ site.data.i18n[version.lang].icon }}
             {% endfor %}
@@ -31,5 +31,4 @@ layout: default
   </span>
   {%- endfor -%}
 
-  <p class="rss-subscribe">Publicáronse un total de {{ posts.size }} mensaxes.</p>
 </div>

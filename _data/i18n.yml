@@ -2,11 +2,20 @@ gl:
   label: galego
   icon: "<img src=\"/assets/flag_esga.png\" height=\"16px;\"/>"
   read_it_in: "Ler isto en"
+  rss_subscribe: "non perdas ningunha: subscríbete por "
+  check_also: "Tamén podes consultar o "
+  history: "histórico completo"
 en:
   label: English
   icon: 🇬🇧
   read_it_in: "Read this in"
+  rss_subscribe: "do not miss any: subscribe via "
+  check_also: "You can also check the "
+  history: "full archive"
 pt:
   label: português
   icon: 🇵🇹
   read_it_in: "Leia isto em"
+  rss_subscribe: "não perca nenhuma: subscreva via "
+  check_also: "Pode também conferir o "
+  history: "histórico completo"
