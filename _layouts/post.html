@@ -14,7 +14,7 @@ layout: default
       {% if versions.size > 1 %}
           {% for version in versions %}
               {% if version.lang != page.lang %}
-                • <i><a href="{{ version.url }}" class="{{ version.lang }}">{{ site.data.i18n[version.lang].read_it_in }} <b>{{ site.data.i18n[version.lang].label }}</b> {{ site.data.i18n[version.lang].icon }} </a></i>
+                • <i><a href="{{ version.url }}" class="{{ version.lang }}">{{ site.data.i18n[version.lang].read_it_in }} <b>{{ site.data.i18n[version.lang].label }}</b></a> {{ site.data.i18n[version.lang].icon }} </i>
               {% endif %}
           {% endfor %}
       {% endif %}
