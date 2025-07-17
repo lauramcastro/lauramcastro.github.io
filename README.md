@@ -9,9 +9,4 @@ The following tweaks have been applied:
 - Changed the default home layout to make use of the `post_preview.html` include, and change RSS link location.
 - Changed the default post layout to slightly adjust appearance, date format, and to add link to archive.
 - Added an archive for news (featuring configuration in the `_archives` folder and a specific `archive.html` layout).
-
-The following tweaks are work in progress, before populating with content:
-
-- Partial multilanguage support. Current status is that only posts offer the possibility of changing languages
-  (to those available). Posts are listed on the homepage in the default page language (if available), or in the
-  first alternative language available otherwise.
+- Added plugin-free multilingual support.
