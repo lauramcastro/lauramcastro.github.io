@@ -11,7 +11,7 @@ layout: default
 
   {%- if site.posts.size > 0 -%}
     <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2>
-    <p class="rss-subscribe"><i>(non perdas ningunha: suscríbete por <a href="{{ "/feed.xml" | relative_url }}">RSS</a>)</i></p>
+    <p class="rss-subscribe"><i>({{ site.data.i18n[page.lang].rss_subscribe }} <a href="{{ "/feed.xml" | relative_url }}">RSS</a>)</i></p>
     <ul class="post-list">
       {%- assign items_grouped = site.posts | group_by: "ref" -%}
       {%- for group in items_grouped -%}
@@ -25,7 +25,7 @@ layout: default
       </li>
       {%- endfor -%}
     </ul>
-    <p class="rss-subscribe"><i>Tamén podes consultar o <a href="{{ "/archives/index" }}">histórico completo</a></i>.</p>
+    <p class="rss-subscribe"><i>{{ site.data.i18n[page.lang].check_also }}<a href="{{ "/archives/index" }}">{{ site.data.i18n[page.lang].history }}</a></i>.</p>
 
   {%- endif -%}
 
