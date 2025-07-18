@@ -45,6 +45,16 @@ collections:
   archives:
     output: true
     permalink: /archives/:path/
+  articles:
+    title: true
+    authors: true
+    publisher: true
+    doi: true
+    output: false
+  courses:
+    output: false
+  activities:
+    output: false
 
 # Exclude from processing.
 # The following items will not be processed, by default.

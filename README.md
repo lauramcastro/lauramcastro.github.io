@@ -10,3 +10,8 @@ The following tweaks have been applied:
 - Changed the default post layout to slightly adjust appearance, date format, and to add link to archive.
 - Added an archive for news (featuring configuration in the `_archives` folder and a specific `archive.html` layout).
 - Added plugin-free multilingual support.
+- Added [collection for publications][ref-collections].
+
+Current task: collections for projects, dissemination activities and teaching (student projects).
+
+[ref-collections]: https://www.csrhymes.com/development/2017/10/27/multiple-post-types-in-jekyll.html

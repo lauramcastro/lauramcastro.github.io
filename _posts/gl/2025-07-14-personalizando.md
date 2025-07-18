@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Personalización do modelo"
+title: "Personalización do modelo"
 excerpt: "En proceso de personalización do modelo."
-date:   2025-07-14 13:34:06 +0200
+date: 2025-07-14 13:34:06 +0200
 permalink: /:title/
 lang: gl
 ref: personalizacion

@@ -5,4 +5,4 @@ lang: en
 permalink: /en/docencia/
 ---
 
-Aquí haberá información sobre docencia (materias, TFGs, TFMs...).
+Here you will soon find information about my teaching (courses, supervised student projects, etc).
