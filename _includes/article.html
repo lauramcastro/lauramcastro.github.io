@@ -5,10 +5,10 @@
     {{ article.authors }}. <em>{{ article.publisher }}</em>.<br/>
     DOI: <a href="https://doi.org/{{ article.doi }}" rel="external nofollow noopener" target="_blank">{{ article.doi }}</a>
     {%- if article.slides -%}
-      <a href="{{ article.slides }}" class="articles" rel="external nofollow noopener" target="_blank">Slides</a>
+      &nbsp;<a href="{{ article.slides }}" class="articles" rel="external nofollow noopener" target="_blank">Slides</a>
     {%- endif -%}
     {%- if article.video -%}
-      <a href="{{ article.video }}" class="articles" rel="external nofollow noopener" target="_blank">Video</a>
+      &nbsp;<a href="{{ article.video }}" class="articles" rel="external nofollow noopener" target="_blank">Video</a>
     {%- endif -%}
   </div>
 </div>

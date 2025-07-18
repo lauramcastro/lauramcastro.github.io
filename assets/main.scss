@@ -44,7 +44,7 @@ $brand-color: rgb(198, 0, 126);
   display: inline-block;
 }
 
-.articles:hover, .a:active {
+.articles:hover, .articles:active {
   background-color: $brand-color;
   color: white;
 }
