@@ -10,14 +10,14 @@ layout: default
         {%- assign date_format = "%-d / %m / %Y" -%}
         <i>{{ page.date | date: date_format }}</i>
       </time>
-      {% assign versions=site.posts | where:"ref",page.ref | sort: 'lang' %}
-      {% if versions.size > 1 %}
-          {% for version in versions %}
-              {% if version.lang != page.lang %}
+      {%- assign versions=site.posts | where: "ref",page.ref | sort: "lang" -%}
+      {%- if versions.size > 1 -%}
+          {%- for version in versions -%}
+              {%- if version.lang != page.lang -%}
                 • <i><a href="{{ version.url }}" class="{{ version.lang }}">{{ site.data.i18n[version.lang].read_it_in }} <b>{{ site.data.i18n[version.lang].label }}</b></a> {{ site.data.i18n[version.lang].icon }} </i>
-              {% endif %}
-          {% endfor %}
-      {% endif %}
+              {%- endif -%}
+          {%- endfor -%}
+      {%- endif -%}
     </p>
   </header>
 

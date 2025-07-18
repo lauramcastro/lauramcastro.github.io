@@ -11,7 +11,7 @@ lang: gl
   <i><a href="/en/"> {{ site.data.i18n["en"].read_it_in }} <b>{{ site.data.i18n["en"].label }}</b> {{ site.data.i18n["en"].icon }} </a></i>
 </div>
 
-![Foto de Laura M. Castro](/assets/lauramcastro-informal.jpg){: style="float: right; border-radius: 30px; margin: 20px; box-shadow: 8px 8px 15px rgba(0, 0, 0, 0.5);"}
+![Foto de Laura M. Castro](/assets/lauramcastro-informal.jpg){: class="profile-picture"}
 
 Ola! Chegaches ao meu sitio web.
 

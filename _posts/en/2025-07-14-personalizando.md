@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Template customization"
+title: "Template customization"
 excerpt: "I am in the process of customizing the website template."
-date:   2025-07-14 13:34:06 +0200
+date: 2025-07-14 13:34:06 +0200
 permalink: /en/:title/
 lang: en
 ref: personalizacion
