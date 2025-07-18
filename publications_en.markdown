@@ -5,14 +5,11 @@ lang: en
 permalink: /en/publicacions/
 ---
 
-This is a selection of my publications.<br/>
-For a complete reference, you may refer to
-<span style="font-size: small;">
-<a href="https://orcid.org/0000-0002-3028-1523" class="articles" rel="external nofollow noopener" target="_blank">ORCID</a></span>
-or 
-<span style="font-size: small;">
+<div style="font-size: small; text-align: right">
+More references: 
+<a href="https://orcid.org/0000-0002-3028-1523" class="articles" rel="external nofollow noopener" target="_blank">ORCID</a>
 <a href="https://dialnet.unirioja.es/servlet/autor?codigo=2608289" class="articles" rel="external nofollow noopener" target="_blank">DialNET</a>
-</span>
+</div>
 {%- assign articles = site.articles -%}
 {%- assign grouped_by_year = articles | group_by_exp: "post","post.date | date: '%Y' " -%}
 
