@@ -58,6 +58,10 @@ collections:
     uri: true
     output: false
   activities:
+    title: true
+    event: true
+    category: true
+    source: true
     output: false
 
 # Exclude from processing.

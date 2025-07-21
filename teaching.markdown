@@ -8,7 +8,6 @@ permalink: /docencia/
 Coordino e imparto aulas das materias:
 <div style="columns: 2 200px; column-gap: 20px; row-gap: 20px;">
 <div class="card">
-  <img src="/assets/software-architecture.png" alt="Software Architecture" style="width: 100%">
   <div class="card__text" style="text-size: small;">
     <br/>
     <h1>Arquitectura do Software</h1>
@@ -17,7 +16,6 @@ Coordino e imparto aulas das materias:
   </div>
 </div>
 <div class="card">
-  <img src="/assets/software-testing.jpg" alt="Software Testing" style="width: 100%">
   <div class="card__text" style="text-size: small;">
     <br/>
     <h1>Validación e Verificación do Software</h1>

@@ -8,7 +8,6 @@ permalink: /en/docencia/
 I coordinate and teach these courses:
 <div style="columns: 2 200px;">
 <div class="card">
-  <img src="/assets/software-architecture.png" alt="Software Architecture" style="width: 100%">
   <div class="card__text" style="text-size: small;">
     <br/>
     <h1>Software Architecture</h1>
@@ -18,7 +17,6 @@ I coordinate and teach these courses:
   </div>
 </div>
 <div class="card">
-  <img src="/assets/software-testing.jpg" alt="Software Testing" style="width: 100%">
   <div class="card__text" style="text-size: small;">
     <br/>
     <h1>Software Validation and Verification</h1>
