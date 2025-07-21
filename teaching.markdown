@@ -29,7 +29,7 @@ Se es estudante e buscas alguén que supervise o teu TFG, TFM ou proxecto de tes
 
 Faino tamén se tes interese en aspectos transversais da tecnoloxía, como as redes sociais, o impacto do software na sociedade, ou o software libre!
 
-Velaquí algúns exemplos de proxectos do estudantado que supervisei:
+<div id="student-projects">Velaquí algúns exemplos de proxectos do estudantado que supervisei:</div>
 
 {%- assign students = site.students -%}
 {%- assign grouped_by_year = students | group_by_exp: "post","post.date | date: '%Y' " -%}
