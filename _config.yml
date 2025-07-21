@@ -51,7 +51,11 @@ collections:
     publisher: true
     doi: true
     output: false
-  courses:
+  students:
+    title: true
+    author: true
+    degree: true
+    uri: true
     output: false
   activities:
     output: false

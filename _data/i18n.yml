@@ -3,6 +3,8 @@ gl:
   icon: "<img src=\"/assets/flag_esga.png\" height=\"16px;\"/>"
   read_it_in: "Ler isto en"
   rss_subscribe: "non perdas ningunha: subscríbete por"
+  check: "Podes consultar o"
+  news: "de novidades"
   check_also: "Tamén podes consultar o"
   history: "histórico completo"
   not_found: "A páxina non existe :("
@@ -12,6 +14,8 @@ en:
   icon: 🇬🇧
   read_it_in: "Read this in"
   rss_subscribe: "do not miss any: subscribe via"
+  check: "You can check the"
+  news: "of updates"
   check_also: "You can also check the"
   history: "full archive"
   not_found: "Page does not exist"
@@ -21,6 +25,8 @@ pt:
   icon: 🇵🇹
   read_it_in: "Leia isto em"
   rss_subscribe: "não perca nenhuma: subscreva via"
+  check: "Pode conferir o"
+  news: "de novidades"
   check_also: "Pode também conferir o"
   history: "histórico completo"
   not_found: "A página não existe :("
