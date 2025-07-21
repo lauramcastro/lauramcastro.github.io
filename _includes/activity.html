@@ -1,0 +1,14 @@
+
+<div class="card">
+  <div class="card__text">
+    <strong>{{ activity.title }}</strong> ({{ activity.category }})<br/>
+    <em>{{ activity.event }}</em>.
+    <a href="{{ activity.source }}" class="articles" rel="external nofollow noopener" target="_blank">URL</a>
+    {%- if activity.slides -%}
+      &nbsp;<a href="{{ activity.slides }}" class="articles" rel="external nofollow noopener" target="_blank">Slides</a>
+    {%- endif -%}
+    {%- if activity.video -%}
+      &nbsp;<a href="{{ activity.video }}" class="articles" rel="external nofollow noopener" target="_blank">Video</a>
+    {%- endif -%}
+  </div>
+</div>

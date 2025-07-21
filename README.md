@@ -11,7 +11,9 @@ The following tweaks have been applied:
 - Added an archive for news (featuring configuration in the `_archives` folder and a specific `archive.html` layout).
 - Added plugin-free multilingual support.
 - Added [collection for publications][ref-collections].
+- Added page for teaching activities + collection for student projects.
+- Added collection for dissemination activities.
 
-Current task: collections for projects, dissemination activities and teaching (student projects).
+Current task: collections for projects.
 
 [ref-collections]: https://www.csrhymes.com/development/2017/10/27/multiple-post-types-in-jekyll.html
