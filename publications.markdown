@@ -5,11 +5,22 @@ lang: gl
 permalink: /publicacions/
 ---
 
+Fago investigación multidisciplinar.
+
+A maioría do meu traballo ocorre no contexto da <a href="https://www.erlang.org/blog/a-brief-beam-primer/">BEAM</a>. Traballei en validación de software (automatización de probas, probas baseadas en modelos, probas baseadas en propiedades) en xeral, pero tamén especificamente de sistemas distribuídos, concorrentes e funcionais. Recentemente, estou participando en investigacións relacionadas coa docencia e a aprendizaxe na enxeñaría do software (con especial interese na arquitectura do software).
+
+Alén diso, estou moi interesada na análise do impacto da tecnoloxía desde unha perspectiva feminista. 
+
+Se che interesa algunha destas áreas, sempre estou disposta a colaborar!
+
+Estas son algunhas das miñas publicacións recentes. Se non podes acceder a calquera das ligazóns que se achegan, non dubides en <a href="mailto:lcastro@udc.gal">contactares comigo</a> para pedir unha copia.
+
 <div style="font-size: small; text-align: right">
 Máis referencias:
 <a href="https://orcid.org/0000-0002-3028-1523" class="articles" rel="external nofollow noopener" target="_blank">ORCID</a>
 <a href="https://dialnet.unirioja.es/servlet/autor?codigo=2608289" class="articles" rel="external nofollow noopener" target="_blank">DialNET</a>
 </div>
+
 {%- assign articles = site.articles -%}
 {%- assign grouped_by_year = articles | group_by_exp: "post","post.date | date: '%Y' " -%}
 

@@ -36,7 +36,7 @@ layout: default
         {%- endfor -%}
       {%- endif -%}  -->
 
-  <p class="post-meta"><i>Podes consultar o <a href="{{ "/archives/index" }}">histórico completo</a> de novidades</i>.</p>
+  <p class="post-meta"><i>{{ site.data.i18n[page.lang].check }} <a href="{{ "/archives/index" }}">{{ site.data.i18n[page.lang].history }}</a> {{site.data.i18n[page.lang].news}}</i>.</p>
 
   <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
 </article>

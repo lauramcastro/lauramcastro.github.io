@@ -15,6 +15,7 @@ $brand-color: rgb(198, 0, 126);
   transition: 0.3s;
   padding: 10px 10px 10px 15px;
   border-radius: 15px; /* rounded corners */
+  margin-bottom: 20px;
 }
 
 /* On mouse-over, add a deeper shadow */
@@ -24,6 +25,18 @@ $brand-color: rgb(198, 0, 126);
 
 .card__text {
   font-size: small;  
+}
+
+.card button {
+  border: none;
+  outline: 0;
+  padding: 10px;
+  color: white;
+  background-color: $brand-color;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: medium;
 }
 
 .profile-picture {
