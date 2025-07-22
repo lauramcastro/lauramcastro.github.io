@@ -7,7 +7,7 @@ permalink: /en/publicacions/
 
 I conduct multidisciplinary research.
 
-Most of my work has taken place inside the <a href="https://www.erlang.org/blog/a-brief-beam-primer/">BEAM</a>. I've worked on software testing (automated, model, and property-based testing), applied to software in general, but also to distributed, concurrent, functional systems in particular. Lately, I'm also involved in research on software engineering teaching/learning processes (with special focus on software architecture).
+Most of my work has taken place inside the [BEAM][beam]{:target="_blank"}. I've worked on software testing (automated, model, and property-based testing), applied to software in general, but also to distributed, concurrent, functional systems in particular. Lately, I'm also involved in research on software engineering teaching/learning processes (with special focus on software architecture).
 
 I'm also very interested in the analysis of the societal impact of technology from a feminist perspective. 
 
@@ -31,3 +31,5 @@ More references:
     {%- include article.html -%}
   {%- endfor -%}
 {%- endfor -%}
+
+[beam]: https://www.erlang.org/blog/a-brief-beam-primer

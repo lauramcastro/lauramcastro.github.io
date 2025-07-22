@@ -63,6 +63,12 @@ collections:
     category: true
     source: true
     output: false
+  projects:
+    title: true
+    shorttitle: true
+    funding: true
+    results: true
+    output: false
 
 # Exclude from processing.
 # The following items will not be processed, by default.

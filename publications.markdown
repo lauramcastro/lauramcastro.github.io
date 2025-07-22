@@ -7,7 +7,7 @@ permalink: /publicacions/
 
 Fago investigación multidisciplinar.
 
-A maioría do meu traballo ocorre no contexto da <a href="https://www.erlang.org/blog/a-brief-beam-primer/">BEAM</a>. Traballei en validación de software (automatización de probas, probas baseadas en modelos, probas baseadas en propiedades) en xeral, pero tamén especificamente de sistemas distribuídos, concorrentes e funcionais. Recentemente, estou participando en investigacións relacionadas coa docencia e a aprendizaxe na enxeñaría do software (con especial interese na arquitectura do software).
+A maioría do meu traballo ocorre no contexto da [BEAM][beam]{:target="_blank"}. Traballei en validación de software (automatización de probas, probas baseadas en modelos, probas baseadas en propiedades) en xeral, pero tamén especificamente de sistemas distribuídos, concorrentes e funcionais. Recentemente, estou participando en investigacións relacionadas coa docencia e a aprendizaxe na enxeñaría do software (con especial interese na arquitectura do software).
 
 Alén diso, estou moi interesada na análise do impacto da tecnoloxía desde unha perspectiva feminista. 
 
@@ -31,3 +31,5 @@ Máis referencias:
     {%- include article.html -%}
   {%- endfor -%}
 {%- endfor -%}
+
+[beam]: https://www.erlang.org/blog/a-brief-beam-primer

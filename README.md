@@ -13,7 +13,8 @@ The following tweaks have been applied:
 - Added [collection for publications][ref-collections].
 - Added page for teaching activities + collection for student projects.
 - Added collection for dissemination activities.
+- Added collection for projects.
 
-Current task: collections for projects.
+To do: archive for activities, projects, publications and student projects.
 
 [ref-collections]: https://www.csrhymes.com/development/2017/10/27/multiple-post-types-in-jekyll.html
