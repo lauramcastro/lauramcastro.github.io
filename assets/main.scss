@@ -15,16 +15,15 @@ $brand-color: rgb(198, 0, 126);
   transition: 0.3s;
   padding: 10px 10px 10px 15px;
   border-radius: 15px; /* rounded corners */
-  margin-bottom: 20px;
+  break-inside: avoid;
+  font-size: small;
+  height: fit-content;
+  width: 95%;
 }
 
 /* On mouse-over, add a deeper shadow */
 .card:hover {
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-}
-
-.card__text {
-  font-size: small;  
 }
 
 .card button {
@@ -37,6 +36,18 @@ $brand-color: rgb(198, 0, 126);
   cursor: pointer;
   width: 100%;
   font-size: medium;
+}
+
+.card-header {
+  text-align: center;
+}
+
+.card-pannel {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  column-gap: 20px;
+  row-gap: 10px;
+  margin-bottom: 20px;
 }
 
 .profile-picture {

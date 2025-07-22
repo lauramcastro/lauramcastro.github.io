@@ -1,0 +1,7 @@
+
+<div class="card">
+  <h1 class="card-header">{{ project.shorttitle }}</h1>
+  <p><b>{{ project.title }}</b>.</p>
+  <p>Financiado por <em>{{ project.funding }}</em> ({{ project.date | date: '%Y'}})</p>
+  <p><button><a href="{{ project.results }}" style="color: white;" target="_blank">+ Info</a></button></p>
+</div>
