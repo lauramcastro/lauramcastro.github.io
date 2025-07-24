@@ -6,11 +6,11 @@
 {%- endif -%}
   <div class="card__text">
     <strong>{{ article.title }}</strong><br/>
-    {{ article.authors }}. <em>{{ article.publisher }}</em>.<br/>
+    {{ article.authors }}. <em>{{ article.publisher }}</em>.
     {%- if article.doi -%}
-    DOI: <a href="https://doi.org/{{ article.doi }}" rel="external nofollow noopener" target="_blank">{{ article.doi }}</a>
+      &nbsp;<a href="https://doi.org/{{ article.doi }}" class="articles" rel="external nofollow noopener" target="_blank">DOI</a>
     {%- else -%}
-    URL: <a href="{{ article.source }}" rel="external nofollow noopener" target="_blank">{{ article.source }}</a>
+      &nbsp;<a href="{{ article.source }}" class="articles" rel="external nofollow noopener" target="_blank">URL</a>
     {%- endif -%}
     {%- if article.slides -%}
       &nbsp;<a href="{{ article.slides }}" class="articles" rel="external nofollow noopener" target="_blank">Slides</a>
