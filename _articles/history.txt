@@ -1,0 +1,30 @@
+-- artigos --
+
+Ammar Boucherit, Abdallah Khababa, Laura M. Castro (2018). Automatic generating
+algorithm of rewriting logic specification for multi-agent system models based on Petri nets,
+Multiagent and Grid Systems, 14 (4), 403-418. DOI: 10.3233/MGS-180298
+
+Ammar Boucherit, Laura M. Castro, Abdallah Khababa (2018). Towards the Formal
+Development of Software Based Systems: Access Control System as a Case Study, Journal
+of Information Technology and Control, 47 (3), 393-405. DOI: 10.5755/j01.itc.47.3.20330
+
+Laura M. Castro, Pablo Lamela, Simon J. Thompson (2016). Making Property-Based Testing
+Easier to Read for Humans, Computing and Informatics, 35 (4), 890-913.
+
+Laura M. Castro (2014), Advanced Management of Data Integrity: Property-Based Testing
+for Business Rules, Journal of Intelligent Information Systems, 44 (3), 355-380. DOI:
+10.1007/s10844-014-0335-2
+
+Agneta Nilsson, Laura M. Castro, Samuel Rivas, Thomas Arts (2015), Assessing the effects
+of introducing a new software development process: a methodological description,
+International Journal on Software Tools for Technology Transfer, 17 (1), 1-16. DOI:
+10.1007/s10009-013-0275-0
+
+-- congresos --
+
+Laura M. Castro (2018). Teaching the next generation of Software Architects. ACM
+European Conference on Software Architecture (ECSA’18). DOI: 10.1145/3241403.3241419
+
+Henrique Ferreiro, Laura M. Castro, Vladimir Janjic, Kevin Hammond (2016). Kindergarten
+Cop: Dynamic Nursery Resizing for GHC, International Conference on Compiler Construction
+(CC’16). DOI: 10.1145/2892208.2892223
