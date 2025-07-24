@@ -13,7 +13,7 @@ Alén diso, estou moi interesada na análise do impacto da tecnoloxía desde unh
 
 Se che interesa algunha destas áreas, sempre estou disposta a colaborar!
 
-Estas son algunhas das miñas publicacións recentes. Se non podes acceder a calquera das ligazóns que se achegan, non dubides en <a href="mailto:lcastro@udc.gal">contactares comigo</a> para pedir unha copia.
+Estas son algunhas das miñas publicacións recentes (os artigos en revista aparecen con fondo gris, o resto de contribucións con fondo rosado). Se non podes acceder aos orixinais mediante as ligazóns que se achegan, non dubides en <a href="mailto:lcastro@udc.gal">contactares comigo</a> para pedir unha copia.
 
 <div style="font-size: small; text-align: right">
 Máis referencias:

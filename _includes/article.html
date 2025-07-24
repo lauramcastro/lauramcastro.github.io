@@ -1,9 +1,17 @@
 
+{%- if article.category -%} <!-- different than journal (default) -->
+<div class="card" style="margin-bottom: 20px; background-color: lavenderblush;">
+{%- else -%}
 <div class="card" style="margin-bottom: 20px;">
+{%- endif -%}
   <div class="card__text">
     <strong>{{ article.title }}</strong><br/>
     {{ article.authors }}. <em>{{ article.publisher }}</em>.<br/>
+    {%- if article.doi -%}
     DOI: <a href="https://doi.org/{{ article.doi }}" rel="external nofollow noopener" target="_blank">{{ article.doi }}</a>
+    {%- else -%}
+    URL: <a href="{{ article.source }}" rel="external nofollow noopener" target="_blank">{{ article.source }}</a>
+    {%- endif -%}
     {%- if article.slides -%}
       &nbsp;<a href="{{ article.slides }}" class="articles" rel="external nofollow noopener" target="_blank">Slides</a>
     {%- endif -%}

@@ -13,7 +13,7 @@ I'm also very interested in the analysis of the societal impact of technology fr
 
 If you happen to be interested in these or related areas, I am always open to collaboration!
 
-Here are some of my latest publications. If you cannot access them on the provided links, do not hesitate to <a href="mailto:lcastro@udc.gal">contact me</a> and ask me for a copy.
+Here are some of my latest publications (grey background highlights journal articles; pink background is used in other cases). If you cannot access the manuscripts using the provided links, do not hesitate to <a href="mailto:lcastro@udc.gal">contact me</a> and ask me for a copy.
 
 <div style="font-size: small; text-align: right">
 More references: 

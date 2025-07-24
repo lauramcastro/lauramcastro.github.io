@@ -49,6 +49,7 @@ collections:
     title: true
     authors: true
     publisher: true
+    category: true
     doi: true
     output: false
   students:
