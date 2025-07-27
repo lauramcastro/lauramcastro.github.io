@@ -45,6 +45,12 @@ collections:
   archives:
     output: true
     permalink: /archives/:path/
+  activities:
+    title: true
+    event: true
+    category: true
+    source: true
+    output: false
   articles:
     title: true
     authors: true
@@ -52,23 +58,23 @@ collections:
     category: true
     doi: true
     output: false
+  projects:
+    title: true
+    shorttitle: true
+    funding: true
+    results: true
+    output: false
   students:
     title: true
     author: true
     degree: true
     uri: true
     output: false
-  activities:
+  thesis:
     title: true
-    event: true
-    category: true
-    source: true
-    output: false
-  projects:
-    title: true
-    shorttitle: true
-    funding: true
-    results: true
+    author: true
+    university: true
+    uri: true
     output: false
 
 # Exclude from processing.

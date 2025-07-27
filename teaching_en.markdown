@@ -25,7 +25,7 @@ If you're a student and are on the look for a supervisor for your degree, master
 
 Do so too if you're interested in transversal aspects of technology, such as social networks, software societal impact, or free software!
 
-<div id="student-projects">These are some examples of student projects I've supervised:</div>
+<div id="student-projects">These are some examples of student projects I've supervised in recent years:</div>
 
 {%- assign students = site.students -%}
 {%- assign grouped_by_year = students | group_by_exp: "post","post.date | date: '%Y' " -%}

@@ -1,5 +1,8 @@
-
+{%- if activity.technical -%}
 <div class="card" style="margin-bottom: 20px;">
+{%- else -%}
+<div class="card" style="margin-bottom: 20px; background-color: lavenderblush;">
+{%- endif -%}
   <div class="card__text">
     <strong>{{ activity.title }}</strong> ({{ activity.category }})<br/>
     <em>{{ activity.event }}</em>.

@@ -7,9 +7,9 @@ permalink: /en/publicacions/
 
 I conduct multidisciplinary research.
 
-Most of my work has taken place inside the [BEAM][beam]{:target="_blank"}. I've worked on software testing (automated, model, and property-based testing), applied to software in general, but also to distributed, concurrent, functional systems in particular. Lately, I'm also involved in research on software engineering teaching/learning processes (with special focus on software architecture).
+Lately, I'm involved in research on **software engineering teaching/learning processes** (with special focus on **software architecture**), but previously I've worked on **software testing** (automated, model, and property-based testing), applied to software in general, but also to **distributed, concurrent, functional systems** in particular, more specifically in the context of the **[BEAM][beam]{:target="_blank"}**. 
 
-I'm also very interested in the analysis of the societal impact of technology from a feminist perspective. 
+I'm also very interested in the analysis of the **societal impact of technology** from a **feminist** perspective. 
 
 If you happen to be interested in these or related areas, I am always open to collaboration!
 
