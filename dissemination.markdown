@@ -5,7 +5,7 @@ lang: gl
 permalink: /divulgacion/
 ---
 
-Ademáis das palestras técnicas que imparto, tamén adoro de facer divulgación para público máis amplo. Eis unha selección de ambas categorías.
+ Eis unha selección das miñas palestras técnicas máis recentes (con <span style="background-color: whitesmoke;">fondo gris</span>), e tamén de actividades de divulgación para público máis amplo (con <span style="background-color: lavenderblush;">fondo rosado</span>), das que adoro!
 
 {%- assign activities = site.activities -%}
 {%- assign grouped_by_year = activities | group_by_exp: "post","post.date | date: '%Y' " -%}

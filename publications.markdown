@@ -7,13 +7,13 @@ permalink: /publicacions/
 
 Fago investigación multidisciplinar.
 
-A maioría do meu traballo ocorre no contexto da [BEAM][beam]{:target="_blank"}. Traballei en validación de software (automatización de probas, probas baseadas en modelos, probas baseadas en propiedades) en xeral, pero tamén especificamente de sistemas distribuídos, concorrentes e funcionais. Recentemente, estou participando en investigacións relacionadas coa docencia e a aprendizaxe na enxeñaría do software (con especial interese na arquitectura do software).
+Recentemente, estou participando en investigacións relacionadas coa **docencia e a aprendizaxe na enxeñaría do software** (con especial interese na **arquitectura do software**), pero antes traballei en **validación de software** (automatización de probas, probas baseadas en modelos, probas baseadas en propiedades) en xeral, pero tamén especificamente de **sistemas distribuídos, concorrentes e funcionais**, e máis especificamente aínda, no contexto da **[BEAM][beam]{:target="_blank"}**. 
 
-Alén diso, estou moi interesada na análise do impacto da tecnoloxía desde unha perspectiva feminista. 
+Alén diso, estou moi interesada na análise do **impacto da tecnoloxía** desde unha perspectiva **feminista**. 
 
 Se che interesa algunha destas áreas, sempre estou disposta a colaborar!
 
-Estas son algunhas das miñas publicacións recentes (os artigos en revista aparecen con fondo gris, o resto de contribucións con fondo rosado). Se non podes acceder aos orixinais mediante as ligazóns que se achegan, non dubides en <a href="mailto:lcastro@udc.gal">contactares comigo</a> para pedir unha copia.
+Estas son algunhas das miñas publicacións recentes (os artigos en revista aparecen con <span style="background-color: whitesmoke;">fondo gris</span>, o resto de contribucións con <span style="background-color: lavenderblush;">fondo rosado</span>). Se non podes acceder aos orixinais mediante as ligazóns que se achegan, non dubides en <a href="mailto:lcastro@udc.gal">contactares comigo</a> para pedir unha copia.
 
 <div style="font-size: small; text-align: right">
 Máis referencias:

@@ -14,7 +14,8 @@ The following tweaks have been applied:
 - Added page for teaching activities + collection for student projects.
 - Added collection for dissemination activities.
 - Added collection for projects.
+- Added data based on a most-recent-five-years policy.
 
-To do: archive for activities, projects, publications and student projects.
+To do: archive for activities (+CRTVG podcasts), projects, publications and student projects older than 5 years.
 
 [ref-collections]: https://www.csrhymes.com/development/2017/10/27/multiple-post-types-in-jekyll.html

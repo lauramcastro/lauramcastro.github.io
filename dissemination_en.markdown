@@ -5,7 +5,7 @@ lang: en
 permalink: /en/divulgacion/
 ---
 
-Alongside technical speaking, I enjoy getting involved in dissemination activities for wider audiences. This is a selection of both.
+This is a selection my most recent technical speaking (<span style="background-color: whitesmoke;">grey background</span>) and dissemination activities for wider audiences (<span style="background-color: lavenderblush;">pink background</span>) that I enjoy so much.
 
 {%- assign activities = site.activities -%}
 {%- assign grouped_by_year = activities | group_by_exp: "post","post.date | date: '%Y' " -%}

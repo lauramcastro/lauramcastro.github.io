@@ -1,6 +1,12 @@
 
+{%- if student.degree=="Mestrado Universitario en Enxeñaría Informática" -%}
+<div class="card" style="margin-bottom: 20px; background-color: lavenderblush;">
+{%- else -%}
 <div class="card" style="margin-bottom: 20px;">
+{%- endif -%}
   <strong>{{ student.title }}</strong><br/>
   {{ student.author }}. <em>{{ student.degree }}</em>.
   <a href="{{ student.uri }}" class="articles" rel="external nofollow noopener" target="_blank">URI</a>
 </div>
+
+
