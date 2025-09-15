@@ -14,7 +14,7 @@ layout: default
     <p class="rss-subscribe"><i>({{ site.data.i18n[page.lang].rss_subscribe }} <a href="{{ "/feed.xml" | relative_url }}">RSS</a>)</i></p>
     <ul class="post-list">
       {%- assign items_grouped = site.posts | group_by: "ref" -%}
-      {%- for group in items_grouped -%}
+      {%- for group in items_grouped limit: 5-%}
       {%- if group.items.size > 1 -%}
           {%- assign post = group.items | first -%}
         {%- else -%}
