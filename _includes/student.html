@@ -7,6 +7,9 @@
   <strong>{{ student.title }}</strong><br/>
   {{ student.author }}. <em>{{ student.degree }}</em>.
   <a href="{{ student.uri }}" class="articles" rel="external nofollow noopener" target="_blank">URI</a>
+  {%- if student.awards -%}
+  <a href="{{ student.awards }}" class="articles" rel="external nofollow noopener" target="_blank"><img src="/assets/achievement.png" height="16px;"/></a>
+  {%- endif -%}
 </div>
 
 
