@@ -11,7 +11,7 @@ gl:
   apology_not_found: "Desculpa, pero non puiden atopar esa páxina."
 en:
   label: English
-  icon: 🇬🇧
+  icon: "<img src=\"/assets/flag_anglo.png\" height=\"16px;\"/>"
   read_it_in: "Read this in"
   rss_subscribe: "do not miss any: subscribe via"
   check: "You can check the"
@@ -22,7 +22,7 @@ en:
   apology_not_found: "Sorry, we could not locate the page you're looking for."
 pt:
   label: português
-  icon: 🇵🇹
+  icon: "<img src=\"/assets/flag_ptbr.png\" height=\"16px;\"/>"
   read_it_in: "Leia isto em"
   rss_subscribe: "não perca nenhuma: subscreva via"
   check: "Pode conferir o"
